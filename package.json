@@ -1,0 +1,27 @@
+{
+  "name": "@tenado/icon",
+  "version": "1.0.0",
+  "description": "常用icon，生成字体库",
+  "main": "index.js",
+  "scripts": {
+    "svg:build": "npx svg2font sync",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenadolanter/icon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenadolanter/icon/issues"
+  },
+  "homepage": "https://github.com/tenadolanter/icon#readme",
+  "devDependencies": {
+    "@tenado/svg2font": "^1.0.11",
+    "sass": "^1.69.5",
+    "vitepress": "^1.0.0-rc.25"
+  }
+}
